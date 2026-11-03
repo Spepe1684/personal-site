@@ -67,11 +67,14 @@ header h1 {
 
 .card {
   display: block;
-  background-color: #ffffff;
+  min-height: 220px;
   padding: 1.5rem;
   border-radius: 8px;
+  background-color: #444;
+  background-size: cover;
+  background-position: center;
   box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-  color: inherit;
+  color: #ffffff;
   text-decoration: none;
 }
 

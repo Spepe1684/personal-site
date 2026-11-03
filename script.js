@@ -18,6 +18,11 @@ document.addEventListener('DOMContentLoaded', async () => {
       const card = document.createElement(project.url ? 'a' : 'article');
       card.className = 'card';
 
+      if (project.image) {
+        card.style.backgroundImage =
+          `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("${project.image}")`;
+      }
+
       if (project.url) {
         card.href = project.url;
         card.target = '_blank';

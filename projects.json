@@ -2,11 +2,13 @@
   {
     "title": "Project One",
     "description": "A brief description of something awesome you created.",
-    "url": "project-one.html"
+    "url": "project-one.html",
+    "image": "project1.jpg"
   },
   {
     "title": "Project Two",
     "description": "Another project showcasing your skills or creative ideas.",
-    "url": "https://github.com/yourusername/project-two"
+    "url": "project-two.html",
+    "image": "images/project-two.jpg"
   }
 ]
