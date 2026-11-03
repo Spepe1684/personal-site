@@ -104,3 +104,23 @@ footer {
   text-decoration: none;
   border-radius: 5px;
 }
+
+/* project page */
+
+.project-page {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.project-page h1 {
+  margin-bottom: 1rem;
+}
+
+.project-page a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #2563eb;
+}
